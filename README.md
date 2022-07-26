@@ -204,8 +204,6 @@ Implement `permutations`, a generator function that takes in a sequence `seq` an
 Permutations may be yielded in any order. Note that the doctests test whether you are yielding all possible permutations, but not in any particular order. The built-in `sorted` function takes in an iterable object and returns a list containing the elements of the iterable in non-decreasing order.
 
 > *Hint:* If you had the permutations of all the elements in `seq` not including the first element, how could you use that to generate the permutations of the full `seq`?
->
-> *Hint:* If you're having trouble getting started, see the hints video for this question for tips on how to approach this question.
 
 ```python
 def permutations(seq):
@@ -365,7 +363,7 @@ python3 ok -q remainders_generator --local
 Finally, you can run doctest to check your answer again.
 
 ```shell
-python3 -m doctest hw03.py
+python3 -m doctest hw04.py
 ```
 
 
